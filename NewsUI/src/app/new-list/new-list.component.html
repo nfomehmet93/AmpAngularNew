@@ -1,7 +1,11 @@
-<div class="container">
+<div class="row">
     <div class="col-md-4" *ngFor="let itm of newsList">
-        <h3>
-            <p>Id: {{itm.id}} Title: {{itm.title}}</p>
-      </h3>
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRajLqDZjQUKdd93HR-iq0dgLWAZ6fzaka4lJJnSnk6Fou-X4tE" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{itm.title}}</h5>
+                <a href="Contents/{{itm.id}}" class="btn btn-primary">Detay</a>
+            </div>
+        </div>
     </div>
 </div>

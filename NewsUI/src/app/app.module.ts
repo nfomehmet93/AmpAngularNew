@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NewDetailsComponent } from './new-details/new-details.component';
 import { NewListComponent } from './new-list/new-list.component';
 import { ApiService } from './Provider/api.service';
+import bootstrap from "bootstrap";
 
 
 @NgModule({
